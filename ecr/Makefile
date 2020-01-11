@@ -1,0 +1,7 @@
+DOCKER_CONTENT_TRUST=1
+AWS_ACCOUNT_ID=xxxxxxxxxxx
+REGION=ap-northeast-1
+ROLE=yyyyyy
+
+push:
+	AWS_ACCOUNT_ID=$(AWS_ACCOUNT_ID) ROLE=$(ROLE) REGION=$(REGION) sh push.sh
