@@ -1,3 +1,10 @@
 # docker-samples
 
-Samples of Docker projects
+This projects contains samples of Docker projects
+
+* hello world
+* jupyter notebook
+* mecab
+* ecr
+
+
