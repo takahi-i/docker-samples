@@ -1,7 +1,10 @@
 up:
 	docker-compose up -d
 
-down:
+stop:
+	docker-compose stop
+
+remove:
 	docker-compose down
 
 open:
